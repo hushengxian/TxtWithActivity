@@ -15,6 +15,7 @@
 		FE6735E920B3B859006C577A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6735E820B3B859006C577A /* main.m */; };
 		FE6735F320B3B859006C577A /* TxtWithActivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6735F220B3B859006C577A /* TxtWithActivityTests.m */; };
 		FE6735FE20B3B859006C577A /* TxtWithActivityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6735FD20B3B859006C577A /* TxtWithActivityUITests.m */; };
+		FE67360D20B3B87E006C577A /* UITextField+Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = FE67360C20B3B87E006C577A /* UITextField+Activity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FE6735F920B3B859006C577A /* TxtWithActivityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TxtWithActivityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6735FD20B3B859006C577A /* TxtWithActivityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TxtWithActivityUITests.m; sourceTree = "<group>"; };
 		FE6735FF20B3B859006C577A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE67360B20B3B87E006C577A /* UITextField+Activity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+Activity.h"; sourceTree = "<group>"; };
+		FE67360C20B3B87E006C577A /* UITextField+Activity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Activity.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				FE6735E420B3B859006C577A /* LaunchScreen.storyboard */,
 				FE6735E720B3B859006C577A /* Info.plist */,
 				FE6735E820B3B859006C577A /* main.m */,
+				FE67360B20B3B87E006C577A /* UITextField+Activity.h */,
+				FE67360C20B3B87E006C577A /* UITextField+Activity.m */,
 			);
 			path = TxtWithActivity;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE67360D20B3B87E006C577A /* UITextField+Activity.m in Sources */,
 				FE6735DE20B3B859006C577A /* ViewController.m in Sources */,
 				FE6735E920B3B859006C577A /* main.m in Sources */,
 				FE6735DB20B3B859006C577A /* AppDelegate.m in Sources */,
